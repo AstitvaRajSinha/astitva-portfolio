@@ -42,11 +42,12 @@ const Projects = () => {
 };
 export default Projects;
 
-const Skeleton = ({ src, alt }) => (
+const Skeleton: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden">
     <img src={src} alt={alt} className="w-full h-full object-cover" />
   </div>
 );
+
 
 const items = [
   {
