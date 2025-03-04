@@ -5,14 +5,13 @@ import { Button } from "./ui/moving-border";
 import Image from "next/image";
 // import { FloatingDockDemo } from "./FloatingIcons";
 import img1 from "../../public/logo.jpg";
-import { IoLogoGithub, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 import { RiUnsplashFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
 
 
 
 function HeroSection() {
-  const words = ["Frontend", "Data Structures", "Backend"];
   return (
     <div className="h-auto md:h-screen w-full flex flex-col md:flex-row items-center justify-center rounded-md relative overflow-hidden mx-auto  py-24 md:py-0">
       <Spotlight />

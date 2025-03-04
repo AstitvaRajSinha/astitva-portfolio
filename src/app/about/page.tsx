@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "../../components/ui/aurora-background";
-import { div } from "framer-motion/client";
 
 export default function Page() {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { div } from "motion/react-client";
 const skills = [
   // Programming Languages
   { name: "Java", hover: "hover:bg-[#f89820]", border: "border-[#f89820]" },
